@@ -1,1 +1,3 @@
-# us-visa-prediction
+# US Visa Prediction Project
+
+Classification Model 
