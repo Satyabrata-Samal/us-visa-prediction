@@ -1,1 +1,55 @@
-/.vscode
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.pyc 
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+ENV/
+
+# Jupyter
+*.ipynb_checkpoints
+notebook/
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# ---- IDE / Editor ----
+.vscode/
+.idea/
+
+# ---- OS Files ----
+.DS_Store
+Thumbs.db
+
+# ---- Build artifacts ----
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ---- Environment / secrets ----
+*.env
+.env.*
+*.yaml
+*.yml
+
+# ---- ML / Data ----
+data/
+datasets/
+artifacts/
+saved_models/
+models/
+checkpoints/
+
+# ---- Cache ----
+.cache/
+*.cache
+pip-wheel-metadata/
